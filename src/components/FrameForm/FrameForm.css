@@ -14,6 +14,7 @@ form {
     flex-direction: row;
     justify-content: space-between;
     margin-bottom: 20px;
+    font-size: 14px;
   }
   /* Стили полей ввода */
   .textbox {
@@ -48,10 +49,11 @@ form {
     color: #fff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    font-size: 14pt;
+    font-size: 14px;
     transition: background 0.4s;
     cursor: pointer;
     max-width: 250px;
+    min-width: 100px;
   }
   /* Изменение фона кнопки при наведении */
   .button:hover {

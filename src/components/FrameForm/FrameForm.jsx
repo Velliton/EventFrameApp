@@ -30,7 +30,7 @@ function FrameForm({
         <input type="date" value={ProduceDateBegin} onChange={startDateInputHandler} className="textbox"/>
         <label>Конец изготовления:</label>
         <input type="date" onChange={endDateInputHandler} value={ProduceDateEnd} className="textbox"/>
-        <button onClick={buttonSubmitHandler} className="button">Сформировать</button>
+        <button onClick={buttonSubmitHandler} className="button">Сформировать <br/> отчёт</button>
       </form>
   </div>
   )
