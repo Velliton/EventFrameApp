@@ -1,0 +1,59 @@
+.form-container{
+  margin: 40px;
+}
+form {
+    margin: 0 auto;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 40px;
+    border-radius: 5px;
+    background: RGBA(255, 255, 255, 1);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.45);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  /* Стили полей ввода */
+  .textbox {
+    height: 50px;
+    width: 100%;
+    margin-right: 20px;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, 0.3) 2px solid;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 10px;
+  }
+  .textbox:focus {
+    outline: none;
+    border: #80b438 2px solid;
+    color: black;
+  }
+
+  label{
+    margin-right: 15px;
+  }
+  /* Базовые стили кнопки */
+  .button {
+    height: 50px;
+    width: 100%;
+    border-radius: 3px;
+    border: rgba(0, 0, 0, 0.3) 0px solid;
+    box-sizing: border-box;
+    padding: 10px;
+    background: #90c843;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 14pt;
+    transition: background 0.4s;
+    cursor: pointer;
+    max-width: 250px;
+  }
+  /* Изменение фона кнопки при наведении */
+  .button:hover {
+    background: #80b438;
+  }
